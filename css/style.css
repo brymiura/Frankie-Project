@@ -1,15 +1,41 @@
-h1 {
-    color: black;
-    font-size: 44px;
-}
-
 body {
-    background-color: rgba(118, 255, 232, 0.836); 
+    background-color: rgba(255, 214, 178, 0.836); 
     color: black;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    background-image: url(../images/bimg.jpg);
+    background-size: cover;
+    height: 200vh;
 }
 
-h2,h4 {
-    color: black
+h1 {
+    text-align: center;
 }
+
+div {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #EEEEE;
+}
+
+.introduction, .main-content, .contact-us {
+    background-color: #548ca8;
+    color: white;
+    border: 1px solid black;
+}
+
+.FAQ, .About, .Pictures {
+    background-color: rgb(109, 140, 206);
+    padding: 5px;
+    width: fit-content;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+ img,.img2, .img3, .img4, .img5, .img6 {
+     width: 300px;
+     height: auto;
+     border: 2px solid black;
+     margin: 5px;
+ }
